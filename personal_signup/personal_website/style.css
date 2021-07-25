@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+/*body{
+	background-color: #baeaf5;
+}*/
+html{
+	scroll-behavior: smooth;
+}
+header{
+	width: 100%;
+	margin-bottom: 20px;
+    background-color: #baeaf5;
+    position: fixed; top: 0; width: 100%;
+
+}
+
+.items{
+/*	height: 100%;
+	width: 100%;*/
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+
+}
+.logo{
+	width: 40%;
+	box-sizing: border-box;
+	padding-left: 120px;
+
+}
+nav a{
+	text-decoration: none;
+}
+nav{
+	justify-content: space-around;
+	display: flex;
+	width: 60%;
+	text-transform: uppercase;
+}
+main{
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+
+}
+.right{
+	height: auto;
+	padding-left: 20px;
+
+}
+
+.right img{
+	max-width: 600px;
+	height: 520px;
+}
+
+.left h3{
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	
+}
+.left h1{
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.email{
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	padding: 5%;
+}
+.facebook,.instagram,.linkedin {
+	float: left;
+	width: 25%;
+	padding: 50px;
+	text-align: center;
+}
+form{
+	font-style: all;
+}
+#about{
+	height: 600px; padding-top: 20%;
+}
+#about h3 {
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+
+}
+#home{
+	padding-top: 5%;
+}
+/*.logout{
+	background-color: red;
+}*/
